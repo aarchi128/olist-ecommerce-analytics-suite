@@ -96,19 +96,21 @@ mysql -u your_username -p olist_database < SQL/bi_reporting_views.sql
 
 ---
 
-## 🖥️ Screenshots
+### 🖥️ Screenshots
 
-### 1. Executive Financial Overview
-![Executive Financial Overview]("C:\Users\AARCHI\OneDrive\E COMMERCE PROJECT\Images\executive-overview.png.png")
+1. **Executive Financial Overview**
+![Executive Financial Overview](Images/executive-overview.png.png)
 
-### 2. Customer Marketing & RFM Segmentation
-![Customer Segmentation]("C:\Users\AARCHI\OneDrive\E COMMERCE PROJECT\Images\customer-segmentation.png.png")
+2. **Customer Marketing & RFM Segmentation**
+![Customer Segmentation](Images/customer-segmentation.png.png)
 
-### 3. Supply Chain & Logistics Velocity
-![Logistics Velocity]("C:\Users\AARCHI\OneDrive\E COMMERCE PROJECT\Images\logistics-velocity.png.png")
+3. **Supply Chain & Logistics Velocity**
+![Logistics Velocity](Images/logistics-velocity.png.png)
 
-### 4. Product Category Performance
-![Product Performance]("C:\Users\AARCHI\OneDrive\E COMMERCE PROJECT\Images\product-performance.png.png")
+4. **Product Category Performance**
+![Product Performance](Images/product-performance.png.png)
+
+
 
 ---
 
