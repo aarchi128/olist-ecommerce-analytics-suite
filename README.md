@@ -66,36 +66,6 @@ The raw source layer is treated as a relational network of **9 interconnected ta
 
 ---
 
-## 🚀 Installation
-Follow these steps to deploy the complete pipeline locally:
-
-### 1. Rebuild the Database Pipeline (MySQL)
-Log into your local MySQL command line interface (CLI) or preferred IDE and execute the scripts within the `SQL/` folder in sequential order:
-```bash
-# Initialize database container
-mysql -u your_username -p < SQL/create_database.sql
-
-# Generate relational schema rules and keys
-mysql -u your_username -p olist_database < SQL/createtable.sql
-
-# Ingest raw source files
-mysql -u your_username -p olist_database < SQL/data_ingestion.sql
-
-# Cleanse text headers and transform strings
-mysql -u your_username -p olist_database < SQL/data_transformation.sql
-
-# Compile the final reporting engine views
-mysql -u your_username -p olist_database < SQL/bi_reporting_views.sql
-```
-
-### 2. Connect the Dashboard Application (Power BI)
-1. Open `PowerBI/olist_e_commerce.pbix` in Power BI Desktop.
-2. Navigate to **Transform Data** > **Data Source Settings**.
-3. Select the data sources, choose **Change Source**, and point the connection parameters to your local MySQL host address.
-4. Click **Apply Changes** to trigger data population.
-
----
-
 ### 🖥️ Screenshots
 
 1. **Executive Financial Overview**
